@@ -1,0 +1,113 @@
+body {
+    background: #e9ebee;
+}
+
+.wrapper {
+    width: 320px;
+    margin: 30px auto 10px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #242424;
+    margin: 15px;
+}
+
+.input {
+    width: 196px;
+    height: 30px;
+    border: 1px solid #555;
+    padding: 2px 5px 2px 5px;
+    color: #242424;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 30px;
+    background: white;
+    float: left;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 8px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+.rand {
+    color: #ffffff;
+    font-weight: bold;
+    font-style: initial;
+    background-color: #11733B;
+    border: 1px solid #11733B;
+}
+
+.invalid-expression.expression {
+    display: none;
+    color: red;
+}
+
+.buttons {
+    display: grid;
+    border: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.button {
+    border: 1px solid #999;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    background: white;
+}
+
+#submit {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .wrapper {
+        width: 500px;
+        margin: 30px auto 10px auto;
+    }
+    .buttons {
+        display: grid;
+        border: 1px solid#999;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+    .wrapper {
+        width: 600px;
+        margin: 30px auto 10px auto;
+    }
+    .buttons {
+        display: grid;
+        border: 1px solid#999;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
