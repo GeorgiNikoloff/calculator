@@ -1,0 +1,44 @@
+body {
+    background: #e9ebee;
+}
+
+.wrapper {
+    width: 300px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #242424;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #555;
+    padding: 2px 32px 2px 5px;
+    color: #242424;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button {
+    padding: 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.invalid-expression.expression {
+    display: none;
+    color: red;
+}
+
+.expression {
+    margin: 20px;
+    color: #242424;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
