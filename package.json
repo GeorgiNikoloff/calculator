@@ -1,0 +1,14 @@
+{
+  "name": "calculator",
+  "version": "1.0.1",
+  "author": "Georgi Nikolov",
+  "scripts": {
+    "task-a": "ws --directory src/task-a",
+    "task-b": "ws --directory src/task-b",
+    "task-c": "ws --directory src/task-c",
+    "task-d": "ws --directory src/task-d"
+  },
+  "dependencies": {
+    "local-web-server": "^5.0.0"
+  }
+}

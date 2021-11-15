@@ -115,3 +115,8 @@ function evaluateExpression(expression) {
 }
 
 console.log(evaluateExpression("sin(30) + cos(20)"));
+console.log(evaluateExpression("sin(20) - cos(10)"));
+console.log(evaluateExpression("sin(15) * cos(30)"));
+console.log(evaluateExpression("sin(50) / sin(5)"));
+console.log(evaluateExpression("5 * 10 + 7"));
+console.log(evaluateExpression("10 + 126 / 2"));
