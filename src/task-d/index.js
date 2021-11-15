@@ -151,7 +151,7 @@ buttons.map( button => {
                 break;
             case '=':
                 try{
-                    display.innerText = eval(display.innerText);
+                    display.innerText = calculation(display.innerText);
                 } catch {
                     display.innerText = "Error"
                 }
